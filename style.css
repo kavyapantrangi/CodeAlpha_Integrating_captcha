@@ -1,0 +1,54 @@
+body{
+    
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(93,167,139,1) 0%, rgba(45,75,63,1) 100.2% );
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    background: rgb(174,185,238);
+background: linear-gradient(90deg, rgba(174,185,238,1) 0%, rgba(41,60,123,1) 12%, rgba(28,77,133,1) 100%);
+width: 60vw;
+height:100vh;
+margin-left:10em;
+font-size: 1.4em;
+color: whitesmoke;
+box-shadow: rebeccapurple 2px;
+}
+.title
+{
+    margin-top: 10px;
+    color: brown;
+    font-size: 2em;
+
+}
+input{
+    height: 30px;
+    width:300px;
+    border-radius: 2px;
+    color: rgb(24, 24, 21);
+    font-size: 1.2em;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    gap: 1.2em;
+    margin-top: 20px;
+}
+.container button
+{
+    margin-top: 50px;
+    width: 300px;
+    height:30px;
+    border-radius: 5px;
+    background-color: #328447;
+}
+.g-recaptcha
+{
+    margin-top: 20px;
+}
